@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+	<test thread-count="5" name="CasualTests">
+		<classes>
+			<class name="tests.day2" />
+			<class name="tests.day1" />
+		</classes>
+	</test>
+	<test name="Car Loan">
+		<classes>
+			<class name="tests.day3">
+				<methods>
+					<exclude name="webLoginCarLoan" />
+				</methods>
+
+			</class>
+		</classes>
+	</test>
+	<test name="Persnol Loan">
+		<classes>
+			<class name="tests.day4">
+				<methods>
+					<include name="APILoginPersonalLoan"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite> 

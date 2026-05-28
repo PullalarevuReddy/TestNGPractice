@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="13" passed="13" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-01-11T16:30:22 IST" name="Loan Department" finished-at="2026-01-11T16:30:23 IST" duration-ms="1448">
+    <groups>
+    </groups>
+    <test started-at="2026-01-11T16:30:22 IST" name="All Type of Loans" finished-at="2026-01-11T16:30:23 IST" duration-ms="930">
+      <class name="test.day2">
+        <test-method signature="homeLoanDesktopLogin()[pri:0, instance:test.day2@59474f18]" started-at="2026-01-11T16:30:23 IST" name="homeLoanDesktopLogin" finished-at="2026-01-11T16:30:23 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homeLoanDesktopLogin -->
+        <test-method signature="homeLoanMobileLogin()[pri:0, instance:test.day2@59474f18]" started-at="2026-01-11T16:30:23 IST" name="homeLoanMobileLogin" finished-at="2026-01-11T16:30:23 IST" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homeLoanMobileLogin -->
+        <test-method signature="homeLoanWebLogin()[pri:0, instance:test.day2@59474f18]" started-at="2026-01-11T16:30:23 IST" name="homeLoanWebLogin" finished-at="2026-01-11T16:30:23 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homeLoanWebLogin -->
+      </class> <!-- test.day2 -->
+      <class name="test.day3">
+        <test-method signature="vehicleLoanDesktopLogin()[pri:0, instance:test.day3@235834f2]" started-at="2026-01-11T16:30:22 IST" name="vehicleLoanDesktopLogin" finished-at="2026-01-11T16:30:22 IST" duration-ms="33" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- vehicleLoanDesktopLogin -->
+        <test-method signature="vehicleLoanMobileLogin()[pri:0, instance:test.day3@235834f2]" started-at="2026-01-11T16:30:22 IST" name="vehicleLoanMobileLogin" finished-at="2026-01-11T16:30:22 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- vehicleLoanMobileLogin -->
+        <test-method signature="vehicleLoanWebLogin()[pri:0, instance:test.day3@235834f2]" started-at="2026-01-11T16:30:22 IST" name="vehicleLoanWebLogin" finished-at="2026-01-11T16:30:22 IST" duration-ms="44" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- vehicleLoanWebLogin -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:test.day3@235834f2]" started-at="2026-01-11T16:30:23 IST" name="afterTest" finished-at="2026-01-11T16:30:23 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- test.day3 -->
+      <class name="test.day1">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:test.day1@65fb9ffc]" started-at="2026-01-11T16:30:22 IST" name="beforeTest" finished-at="2026-01-11T16:30:22 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="PersonalLoanDesktopLogin()[pri:0, instance:test.day1@65fb9ffc]" started-at="2026-01-11T16:30:23 IST" name="PersonalLoanDesktopLogin" finished-at="2026-01-11T16:30:23 IST" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PersonalLoanDesktopLogin -->
+        <test-method signature="PersonalLoanMobileLogin()[pri:0, instance:test.day1@65fb9ffc]" started-at="2026-01-11T16:30:23 IST" name="PersonalLoanMobileLogin" finished-at="2026-01-11T16:30:23 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PersonalLoanMobileLogin -->
+        <test-method signature="PersonalLoanWebLogin()[pri:0, instance:test.day1@65fb9ffc]" started-at="2026-01-11T16:30:23 IST" name="PersonalLoanWebLogin" finished-at="2026-01-11T16:30:23 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PersonalLoanWebLogin -->
+        <test-method signature="main()[pri:0, instance:test.day1@65fb9ffc]" started-at="2026-01-11T16:30:23 IST" name="main" finished-at="2026-01-11T16:30:23 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+      </class> <!-- test.day1 -->
+    </test> <!-- All Type of Loans -->
+    <test started-at="2026-01-11T16:30:23 IST" name="Credit Card" finished-at="2026-01-11T16:30:23 IST" duration-ms="122">
+      <class name="test.day4">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:test.day4@f5958c9]" started-at="2026-01-11T16:30:22 IST" name="beforeSuite" finished-at="2026-01-11T16:30:22 IST" duration-ms="63" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method signature="ccDesktopLogin()[pri:0, instance:test.day4@f5958c9]" started-at="2026-01-11T16:30:23 IST" name="ccDesktopLogin" finished-at="2026-01-11T16:30:23 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ccDesktopLogin -->
+        <test-method signature="ccMobileLogin()[pri:0, instance:test.day4@f5958c9]" started-at="2026-01-11T16:30:23 IST" name="ccMobileLogin" finished-at="2026-01-11T16:30:23 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ccMobileLogin -->
+        <test-method signature="ccWebLogin()[pri:0, instance:test.day4@f5958c9]" started-at="2026-01-11T16:30:23 IST" name="ccWebLogin" finished-at="2026-01-11T16:30:23 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ccWebLogin -->
+      </class> <!-- test.day4 -->
+      <class name="test.day2">
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:test.day2@59474f18]" started-at="2026-01-11T16:30:23 IST" name="afterSuite" finished-at="2026-01-11T16:30:23 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- test.day2 -->
+    </test> <!-- Credit Card -->
+  </suite> <!-- Loan Department -->
+</testng-results>
