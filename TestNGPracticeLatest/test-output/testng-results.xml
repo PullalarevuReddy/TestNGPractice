@@ -1,21 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="1" total="8" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-05-28T22:39:22 IST" name="Suite" finished-at="2026-05-28T22:39:22 IST" duration-ms="333">
+  <suite started-at="2026-05-28T23:51:27 IST" name="Suite" finished-at="2026-05-28T23:51:27 IST" duration-ms="444">
     <groups>
+      <group name="Mobile">
+        <method signature="Loans.CarLoanLoginOnMobile()[pri:0, instance:testNGBasics.Loans@3a93b025]" name="CarLoanLoginOnMobile" class="testNGBasics.Loans"/>
+        <method signature="Loans.HomeLoanLoginOnMobile()[pri:0, instance:testNGBasics.Loans@3a93b025]" name="HomeLoanLoginOnMobile" class="testNGBasics.Loans"/>
+      </group> <!-- Mobile -->
+      <group name="Browser">
+        <method signature="Loans.CarLoanLoginOnBrowser()[pri:0, instance:testNGBasics.Loans@3a93b025]" name="CarLoanLoginOnBrowser" class="testNGBasics.Loans"/>
+        <method signature="Loans.HomeLoanLoginOnBrowser()[pri:0, instance:testNGBasics.Loans@3a93b025]" name="HomeLoanLoginOnBrowser" class="testNGBasics.Loans"/>
+      </group> <!-- Browser -->
     </groups>
-    <test started-at="2026-05-28T22:39:22 IST" name="Test" finished-at="2026-05-28T22:39:22 IST" duration-ms="333">
+    <test started-at="2026-05-28T23:51:27 IST" name="Test" finished-at="2026-05-28T23:51:27 IST" duration-ms="444">
       <class name="testNGBasics.Loans">
-        <test-method signature="HomeLoanLoginOnBrowser()[pri:0, instance:testNGBasics.Loans@2d7275fc]" started-at="2026-05-28T22:39:22 IST" name="HomeLoanLoginOnBrowser" finished-at="2026-05-28T22:39:22 IST" duration-ms="46" status="PASS">
+        <test-method signature="CarLoanLoginForAllDevices()[pri:0, instance:testNGBasics.Loans@3a93b025]" started-at="2026-05-28T23:51:27 IST" name="CarLoanLoginForAllDevices" finished-at="2026-05-28T23:51:27 IST" duration-ms="35" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CarLoanLoginForAllDevices -->
+        <test-method signature="CarLoanLoginOnBrowser()[pri:0, instance:testNGBasics.Loans@3a93b025]" started-at="2026-05-28T23:51:27 IST" name="CarLoanLoginOnBrowser" finished-at="2026-05-28T23:51:27 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CarLoanLoginOnBrowser -->
+        <test-method signature="CarLoanLoginOnDesktop()[pri:0, instance:testNGBasics.Loans@3a93b025]" started-at="2026-05-28T23:51:27 IST" name="CarLoanLoginOnDesktop" finished-at="2026-05-28T23:51:27 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CarLoanLoginOnDesktop -->
+        <test-method signature="CarLoanLoginOnMobile()[pri:0, instance:testNGBasics.Loans@3a93b025]" started-at="2026-05-28T23:51:27 IST" name="CarLoanLoginOnMobile" finished-at="2026-05-28T23:51:27 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CarLoanLoginOnMobile -->
+        <test-method signature="HomeLoanLoginForAllDevices()[pri:0, instance:testNGBasics.Loans@3a93b025]" started-at="2026-05-28T23:51:27 IST" name="HomeLoanLoginForAllDevices" finished-at="2026-05-28T23:51:27 IST" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomeLoanLoginForAllDevices -->
+        <test-method signature="HomeLoanLoginOnBrowser()[pri:0, instance:testNGBasics.Loans@3a93b025]" started-at="2026-05-28T23:51:27 IST" name="HomeLoanLoginOnBrowser" finished-at="2026-05-28T23:51:27 IST" duration-ms="15" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HomeLoanLoginOnBrowser -->
-        <test-method signature="HomeLoanLoginOnDesktop()[pri:0, instance:testNGBasics.Loans@2d7275fc]" started-at="2026-05-28T22:39:22 IST" name="HomeLoanLoginOnDesktop" finished-at="2026-05-28T22:39:22 IST" duration-ms="7" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- HomeLoanLoginOnDesktop -->
-        <test-method signature="HomeLoanLoginOnMobile()[pri:0, instance:testNGBasics.Loans@2d7275fc]" started-at="2026-05-28T22:39:22 IST" name="HomeLoanLoginOnMobile" finished-at="2026-05-28T22:39:22 IST" duration-ms="14" status="PASS">
+        <test-method signature="HomeLoanLoginOnMobile()[pri:0, instance:testNGBasics.Loans@3a93b025]" started-at="2026-05-28T23:51:27 IST" name="HomeLoanLoginOnMobile" finished-at="2026-05-28T23:51:27 IST" duration-ms="19" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HomeLoanLoginOnMobile -->

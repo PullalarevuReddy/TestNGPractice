@@ -60,7 +60,7 @@
                 </li>
                 <li>
                   <a href="#" panel-name="group-Suite" class="navigator-link ">
-                    <span>0 groups</span>
+                    <span>2 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods,   3 passed</span>
+                    <span class="method-stats">7 methods,   7 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,12 +103,32 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testNGBasics.Loans" class="method navigator-link" hash-for-method="HomeLoanLoginOnBrowser">HomeLoanLoginOnBrowser</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="testNGBasics.Loans" class="method navigator-link" hash-for-method="CarLoanLoginForAllDevices">CarLoanLoginForAllDevices</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testNGBasics.Loans" class="method navigator-link" hash-for-method="HomeLoanLoginOnDesktop">HomeLoanLoginOnDesktop</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="testNGBasics.Loans" class="method navigator-link" hash-for-method="CarLoanLoginOnBrowser">CarLoanLoginOnBrowser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testNGBasics.Loans" class="method navigator-link" hash-for-method="CarLoanLoginOnDesktop">CarLoanLoginOnDesktop</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testNGBasics.Loans" class="method navigator-link" hash-for-method="CarLoanLoginOnMobile">CarLoanLoginOnMobile</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testNGBasics.Loans" class="method navigator-link" hash-for-method="HomeLoanLoginForAllDevices">HomeLoanLoginForAllDevices</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testNGBasics.Loans" class="method navigator-link" hash-for-method="HomeLoanLoginOnBrowser">HomeLoanLoginOnBrowser</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -136,16 +156,44 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="HomeLoanLoginOnBrowser">
-                  </a> <!-- HomeLoanLoginOnBrowser -->
-                  <span class="method-name">HomeLoanLoginOnBrowser</span>
+                  <a name="CarLoanLoginForAllDevices">
+                  </a> <!-- CarLoanLoginForAllDevices -->
+                  <span class="method-name">CarLoanLoginForAllDevices</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="HomeLoanLoginOnDesktop">
-                  </a> <!-- HomeLoanLoginOnDesktop -->
-                  <span class="method-name">HomeLoanLoginOnDesktop</span>
+                  <a name="CarLoanLoginOnBrowser">
+                  </a> <!-- CarLoanLoginOnBrowser -->
+                  <span class="method-name">CarLoanLoginOnBrowser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CarLoanLoginOnDesktop">
+                  </a> <!-- CarLoanLoginOnDesktop -->
+                  <span class="method-name">CarLoanLoginOnDesktop</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CarLoanLoginOnMobile">
+                  </a> <!-- CarLoanLoginOnMobile -->
+                  <span class="method-name">CarLoanLoginOnMobile</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HomeLoanLoginForAllDevices">
+                  </a> <!-- HomeLoanLoginForAllDevices -->
+                  <span class="method-name">HomeLoanLoginForAllDevices</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="HomeLoanLoginOnBrowser">
+                  </a> <!-- HomeLoanLoginOnBrowser -->
+                  <span class="method-name">HomeLoanLoginOnBrowser</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -169,7 +217,11 @@
 &lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;testNGBasics.Loans&quot;/&gt;
+      &lt;class name=&quot;testNGBasics.Loans&quot;&gt;
+        &lt;methods&gt;
+          &lt;exclude name=&quot;HomeLoanLoginOnDesktop&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- testNGBasics.Loans --&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
@@ -193,6 +245,30 @@
             <span class="header-content">Groups for Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">Browser</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">CarLoanLoginOnBrowser</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">HomeLoanLoginOnBrowser</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Mobile</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">CarLoanLoginOnMobile</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">HomeLoanLoginOnMobile</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="times-Suite" class="panel">
@@ -209,24 +285,40 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(7);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'HomeLoanLoginOnBrowser')
+data.setCell(0, 1, 'CarLoanLoginForAllDevices')
 data.setCell(0, 2, 'testNGBasics.Loans')
-data.setCell(0, 3, 46);
+data.setCell(0, 3, 35);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'HomeLoanLoginOnMobile')
 data.setCell(1, 2, 'testNGBasics.Loans')
-data.setCell(1, 3, 14);
+data.setCell(1, 3, 19);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'HomeLoanLoginOnDesktop')
+data.setCell(2, 1, 'HomeLoanLoginForAllDevices')
 data.setCell(2, 2, 'testNGBasics.Loans')
-data.setCell(2, 3, 7);
+data.setCell(2, 3, 18);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'HomeLoanLoginOnBrowser')
+data.setCell(3, 2, 'testNGBasics.Loans')
+data.setCell(3, 3, 15);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'CarLoanLoginOnBrowser')
+data.setCell(4, 2, 'testNGBasics.Loans')
+data.setCell(4, 3, 12);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'CarLoanLoginOnMobile')
+data.setCell(5, 2, 'testNGBasics.Loans')
+data.setCell(5, 3, 11);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'CarLoanLoginOnDesktop')
+data.setCell(6, 2, 'testNGBasics.Loans')
+data.setCell(6, 3, 8);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 67 ms</span>
+              <span class="suite-total-time">Total running time: 118 ms</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -241,9 +333,16 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">0 ignored methods</span>
+            <span class="header-content">1 ignored method</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testNGBasics.Loans</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">HomeLoanLoginOnDesktop</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-Suite" class="panel">
@@ -254,16 +353,32 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">testNGBasics.Loans</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">HomeLoanLoginOnBrowser</span>
+                <span class="method-name">CarLoanLoginForAllDevices</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">HomeLoanLoginOnDesktop</span>
-                <span class="method-start">74 ms</span>
+                <span class="method-name">CarLoanLoginOnBrowser</span>
+                <span class="method-start">62 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CarLoanLoginOnDesktop</span>
+                <span class="method-start">95 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CarLoanLoginOnMobile</span>
+                <span class="method-start">120 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">HomeLoanLoginForAllDevices</span>
+                <span class="method-start">151 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">HomeLoanLoginOnBrowser</span>
+                <span class="method-start">195 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">HomeLoanLoginOnMobile</span>
-                <span class="method-start">104 ms</span>
+                <span class="method-start">242 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
