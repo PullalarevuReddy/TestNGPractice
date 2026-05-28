@@ -20,5 +20,10 @@ public class Loans {
 		System.out.println("HomeLoanLoginOnDesktop");
 
 	}
+	@Test
+	public void HomeLoanLoginForAllDevices() {
+		System.out.println("HomeLoanLoginForAllDevices");
+		
+	}
 
 }
